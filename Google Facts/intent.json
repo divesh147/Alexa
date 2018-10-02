@@ -1,0 +1,37 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "google facts",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "googlefacts",
+                    "slots": [],
+                    "samples": [
+                        "tell me some google facts",
+                        "tell some google facts",
+                        "tell google facts",
+                        "google facts",
+                        "facts"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
