@@ -1,2 +1,0 @@
-This skill will tell you about some fascinating facts about Google most people don’t know. 
-You can open this skill by using the phrase: "Alexa, open google facts" and then to know some fascinating facts you can say utterances like: "tell me some google facts", "tell some google facts", "tell google facts", "google facts" or "facts". And Thus you get to know some interesting facts.
