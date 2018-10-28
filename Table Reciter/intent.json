@@ -1,0 +1,107 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "table reciter",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "stop",
+                        "close",
+                        "no"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "TableIntent",
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER",
+                            "samples": [
+                                "times table of {number}",
+                                "say times table of {number}",
+                                "say multiplication table of {number}",
+                                "multiplication table of {number}",
+                                "say the table of {number}",
+                                "say table of {number}",
+                                "say table of {number} again",
+                                "table of {number}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "times table of {number}",
+                        "say times table of {number}",
+                        "say multiplication table of {number}",
+                        "multiplication table of {number}",
+                        "table of {number}",
+                        "say table of {number}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.RepeatIntent",
+                    "samples": [
+                        "repeat that please",
+                        "repeat that",
+                        "can you say it again",
+                        "can you repeat it again",
+                        "please say it again",
+                        "please repeat",
+                        "say again",
+                        "say it again",
+                        "again",
+                        "repeat"
+                    ]
+                }
+            ],
+            "types": []
+        },
+        "dialog": {
+            "intents": [
+                {
+                    "name": "TableIntent",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.847988692281.860758132125"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "prompts": [
+            {
+                "id": "Elicit.Slot.847988692281.860758132125",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Sorry did not hear a number. Please say a number too."
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "Please say a number too."
+                    }
+                ]
+            }
+        ]
+    }
+}
