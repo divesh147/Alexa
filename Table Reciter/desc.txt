@@ -1,0 +1,4 @@
+This skill will recite the multiplication table of any number you say for you and will help you learn it.
+Open this skill by saying "Alexa open table reciter" and then to recite a table of any number like four say utterances like 
+"say table of four", "times table of four" or "table of four".
+You can also repeat the table by just saying "repeat" and close the skill by saying "close" or "stop".
